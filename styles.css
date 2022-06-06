@@ -168,11 +168,15 @@ body {
     color: var(--secondary-text-color);
     text-align: center;
     margin-bottom: 15px;
+    margin-top: 25px;
+
 }
 
 .skills__text {
     color: var(--secondary-text-color);
-    text-align: justify;
+    /* text-align: justify; */
+    text-align: center;
+
 }
 .experiences {
     flex: 1 1 60%;
@@ -227,7 +231,7 @@ body {
     flex: 1 1 40%;
 }
 
-.additional-info__education {
+.additional-info__education  {
     margin-bottom: 20px;
 }
 
@@ -266,4 +270,10 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+.year {
+    color: var(--text-decoration-color);
+}
+.shit {
+    text-decoration: line-through;
 }
