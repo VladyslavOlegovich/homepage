@@ -75,9 +75,9 @@ body {
 
   .contact-info__header {
       color: var(--primary-text-color);
-      margin-bottom: 15px;
+      margin-bottom: 25px;
       text-decoration-color: var(--text-decoration-color);
-      text-decoration-line: underline;
+     
   }
 
   .contact-info__sub-header {
@@ -129,6 +129,14 @@ body {
       object-fit: cover;
       border: 3px solid;
       border-color: var(--text-decoration-color);
+  }
+  .contact-info__avatar:hover {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid;
+    border-color: var(--icon-color);
   }
   .intro {
     display: flex;
